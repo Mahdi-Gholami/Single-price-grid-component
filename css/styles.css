@@ -1,0 +1,102 @@
+@import url('https://fonts.google.com/specimen/Karla');
+body {
+    font-family: 'Karla'sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #e6eff6;
+}
+
+.container {
+    margin: 10% 28%;
+    width: 43%;
+    background-color: white;
+}
+
+.top-container {
+    padding: 5%;
+    padding-bottom: 6%;
+}
+
+.buttom-left-container {
+    background-color: hsl(179, 62%, 43%);
+    padding: 5%;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.buttom-right-container {
+    background-color: #4abebd;
+    padding: 5%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+
+li {
+    text-decoration: none;
+    color: hsl(204, 43%, 93%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+    font-size: .9rem;
+}
+
+.buttom {
+    margin: 5% auto 0;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.btn-signup {
+    width: 100%;
+    background-color: #bfdf32;
+    border: 0px;
+    color: white;
+    padding: 12px 0px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.btn-signup:hover {
+    background-color: white;
+    color: #bfdf32;
+    font-weight: bolder;
+}
+
+.yellow-heading {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.1rem;
+}
+
+.price-tag {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.buttom-left-container h2 {
+    color: white;
+}
+
+@media (max-width:700px) {
+    .container {
+        margin: 20% 8%;
+        width: 84%;
+    }
+}
